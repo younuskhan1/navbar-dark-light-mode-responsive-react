@@ -3,7 +3,7 @@ import { FaUserCircle } from 'react-icons/fa';
 
 const ResponsiveMenu = ({showMenu}) => {
     return (
-        <div className={`md:hidden ${showMenu ? "-left-[100%]" : "left-0"} h-screen w-[50%] bg-slate-950 fixed top-0 transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between text-white`}>
+        <div className={`md:hidden ${showMenu ? "-left-[75%]" : "left-0"} h-screen w-[75%] bg-slate-950 fixed top-0 transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between text-white`}>
             <div>
                 <div className='flex items-center justify-start gap-3'>
                    <FaUserCircle size={50}/>
