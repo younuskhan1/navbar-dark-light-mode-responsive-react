@@ -31,7 +31,7 @@ const Navbar = () => {
 
     return (
     <>
-    <header className="relative z-[99] bg-navbar text-white border-b-[1px] border-primary/50">
+    <header className="relative z-[99] bg-navbar text-white border-b-[1px] border-primary/50 md:px-4 px-3">
         <nav className="container flex items-center justify-between h-[70px] py-2">
           {/* Logo-section  */}
             <div className="text-2xl md:text-3xl text-white">
@@ -43,7 +43,7 @@ const Navbar = () => {
 
           {/* Desktop menu section  */}
            <div className="hidden md:block">
-                <ul className="flex items-center gap-10">
+                <ul className="flex items-center gap-5">
                     <li className="group relative cursor-pointer">
                         <a href="#" className="flex items-center gap-[2px] h-[72px]">
                             Home{" "}
